@@ -1,0 +1,13 @@
+$mainColor: yellowgreen;
+$secondColor: #FAE626;
+$lightColor: whitesmoke;
+$gray: rgb(114, 111, 111);
+$darkColor: black;
+
+$width: 768px;
+
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}
